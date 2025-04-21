@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="../src/output.css" rel="stylesheet" />
+    <title>Instagram</title>
+  </head>
+  <body>
+
+    <div class="h-screen w-screen grid grid-cols-1 md:grid-cols-2 grid-rows-6">
+      <!-- Imagem principal -->
+      
+      <div class="row-span-5 md:flex justify-end hidden">
+        <img class="w-max-96" src="../img/mob-img.png" alt="" />
+      </div>
+
+      <!-- Formulario -->
+      <div class="row-span-5 flex flex-col justify-center items-center">
+        
+        <form class="w-80 flex flex-col justify-center items-center border rounded-sm px-10 py-4 gap-5">  
+            <img class="w-52" src="../img/insta.png" alt="" />
+            
+            <input class="bg-slate-100 h-9 w-full pl-3 border rounded-md" placeholder="Numero do telefone/Email" />
+            <input class="bg-slate-100 h-9 w-full pl-3 border rounded-md" placeholder="Senha" />
+
+            <button class="cursor-pointer bg-blue-500 w-full h-8 rounded-md text-slate-50 hover:bg-blue-300">Entrar</button>
+
+          <a class="text-blue-600 font-bold cursor-pointer" href="">Entrar com o facebook</a>
+          <a class="text-blue-500 text-sm cursor-pointer" href="">Esqueci a minha senha</a>
+        </form>
+
+        <div class="border w-80 my-3 text-center py-5">
+          <p>Não tem conta? <a class="text-blue-400 font-bold" href="">Cadastrar-se</a></p>
+        </div>
+
+        <p>Baixe o aplicativo</p>
+
+        <div class="flex gap-3 mt-4 ">
+          <img class="h-10" src="../img/googleplay.png" alt="" />
+          <img class="h-10" src="../img/apple.png" alt="" />
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="row-span-1 col-span-2">
+        <ul class="flex flex-wrap gap-5 justify-center">
+          <li class="text-slate-600 text-sm">Meta</li>
+          <li class="text-slate-600 text-sm">Sobre</li>
+          <li class="text-slate-600 text-sm">Blogue</li>
+          <li class="text-slate-600 text-sm">Empregos</li>
+          <li class="text-slate-600 text-sm">Ajuda</li>
+          <li class="text-slate-600 text-sm">API</li>
+          <li class="text-slate-600 text-sm">Privacidade</li>
+          <li class="text-slate-600 text-sm">Termos</li>
+          <li class="text-slate-600 text-sm">Localizações</li>
+          <li class="text-slate-600 text-sm">Instagram Lite</li>
+          <li class="text-slate-600 text-sm">Threads</li>
+          <li class="text-slate-600 text-sm">Carregamento de contactos e não utilizadores</li>
+          <li class="text-slate-600 text-sm">Verificação Meta</li>
+        </ul>
+
+        <ul class="flex gap-5 flex-wrap justify-center mt-6">
+          <li class="text-slate-600">Português (Portugal)</li>
+          <li class="text-slate-600">© 2025 Instagram from Meta</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </body>
+</html>
